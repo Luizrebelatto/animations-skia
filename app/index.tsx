@@ -4,9 +4,11 @@ import DropDownPicker from "react-native-dropdown-picker";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import Circles from "./components/circles";
+import Square from "./components/square";
 
 const components: Record<string, React.ComponentType> = {
   circles: Circles,
+  square: Square,
 };
 
 export default function Index() {
